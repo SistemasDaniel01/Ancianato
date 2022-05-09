@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/abuelo1"
+    android:background="@color/Abuelo2"
     tools:context=".MainActivity">
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_marginBottom="50dp"
         android:gravity="center"
         android:text="Campos Verdes"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/Abuelo3"
         android:textSize="35dp"
         android:textStyle="bold" />
 
