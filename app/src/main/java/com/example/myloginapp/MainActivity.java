@@ -19,11 +19,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent siguiente = new Intent(this,Inicio.class);
+        Intent registro = new Intent(this,Registro.class);
 
         TextView username =(TextView) findViewById(R.id.username);
         TextView password =(TextView) findViewById(R.id.password);
 
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
+        MaterialButton registerbtn = (MaterialButton) findViewById(R.id.registerbtn);
 
         //admin and admin
 
@@ -39,6 +41,17 @@ public class MainActivity extends AppCompatActivity {
                 }else
                     //incorrect
                     Toast.makeText(MainActivity.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        registerbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                    //correct
+
+                    startActivity(registro);
+
             }
         });
 
