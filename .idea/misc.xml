@@ -8,9 +8,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/planl/Documents/Assassin's Creed Odyssey/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_historia_clinica.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/planl/Documents/Assassin's Creed Odyssey/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_index.xml" value="0.25" />
         <entry key="..\:/Users/planl/Documents/Assassin's Creed Odyssey/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/planl/Documents/Assassin's Creed Odyssey/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/planl/Documents/Assassin's Creed Odyssey/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/list_element.xml" value="0.33" />
       </map>
     </option>
   </component>
