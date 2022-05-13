@@ -29,11 +29,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="22dp"
+        android:layout_marginStart="33dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="300dp"
-        android:layout_marginBottom="353dp"
-        android:text="Categorías"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="403dp"
+        android:text="Categorias"
         android:textStyle="bold" />
 
     <TextView
@@ -43,10 +43,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="22dp"
+        android:layout_marginStart="37dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="200dp"
-        android:layout_marginBottom="326dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="348dp"
         android:text="Elige la opción que deseas" />
 
     <com.google.android.material.button.MaterialButton
@@ -56,11 +56,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="43dp"
-        android:layout_marginEnd="247dp"
-        android:layout_marginBottom="228dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="249dp"
         android:backgroundTint="#7DDCD2"
-        android:text="Historia Clínica" />
+        android:text="Registrar Anciano" />
 
     <Button
         android:id="@+id/button2"
@@ -69,11 +69,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="177dp"
-        android:layout_marginEnd="113dp"
-        android:layout_marginBottom="228dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="250dp"
         android:backgroundTint="#E47A8A"
-        android:text="Reporte Diario" />
+        android:text="Reservar visita" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -85,7 +85,7 @@
         android:layout_marginStart="94dp"
         android:layout_marginEnd="123dp"
         android:layout_marginBottom="-6dp"
-        app:srcCompat="@drawable/doctor" />
+        app:srcCompat="@drawable/cliente" />
 
     <TextView
         android:id="@+id/textView6"
@@ -93,9 +93,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView4"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="222dp"
-        android:layout_marginBottom="95dp"
-        android:text="Hola Doctor"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="99dp"
+        android:text="Hola Marina"
         android:textSize="65px" />
 
 

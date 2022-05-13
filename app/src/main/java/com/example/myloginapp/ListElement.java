@@ -1,16 +1,67 @@
 package com.example.myloginapp;
 
-public class ListElement {
+import java.io.Serializable;
+
+public class ListElement implements Serializable {
     public String color;
     public String name;
     public String city;
     public String status;
+    public int edad;
+    public String sexo;
+    public String enfermedad;
+    public String diagnostico;
+    public String posologia;
+
+    public ListElement() {
+
+    }
 
     public ListElement(String color, String name, String city, String status) {
         this.color = color;
         this.name = name;
         this.city = city;
         this.status = status;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getEnfermedad() {
+        return enfermedad;
+    }
+
+    public void setEnfermedad(String enfermedad) {
+        this.enfermedad = enfermedad;
+    }
+
+    public String getDiagnostico() {
+        return diagnostico;
+    }
+
+    public void setDiagnostico(String diagnostico) {
+        this.diagnostico = diagnostico;
+    }
+
+    public String getPosologia() {
+        return posologia;
+    }
+
+    public void setPosologia(String posologia) {
+        this.posologia = posologia;
     }
 
     public String getColor() {
