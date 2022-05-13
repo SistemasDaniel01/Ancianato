@@ -18,11 +18,17 @@ public class ListAdapter  extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     private List<ListElement> nData;
     private LayoutInflater mInflater;
     private Context context;
+    final ListAdapter.OnItemClickListener listener;
 
-    public ListAdapter(List<ListElement> itemList,Context context){
+    public interface OnItemClickListener{
+        void OnItemClick(ListElement item);
+    }
+
+    public ListAdapter(List<ListElement> itemList,Context context,ListAdapter.OnItemClickListener listener){
         this.mInflater = LayoutInflater.from(context);
         this.context = context;
         this.nData = itemList;
+        this.listener = listener;
     }
 
 
@@ -68,6 +74,12 @@ public class ListAdapter  extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             name.setText(item.getName());
             city.setText(item.getCity());
             status.setText(item.getStatus());
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    listener.OnItemClick(item);
+                }
+            });
         }
     }
 }
