@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLoginApp">
         <activity
-            android:name=".RegistrarAnciano"
-            android:exported="false" />
-        <activity
             android:name=".DescriptionActivity"
             android:exported="false" />
         <activity
