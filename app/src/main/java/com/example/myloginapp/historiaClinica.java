@@ -10,7 +10,7 @@ import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HistoriaClinica extends AppCompatActivity {
+public class historiaClinica extends AppCompatActivity {
 
     List<ListElement> elements;
     @Override

@@ -14,7 +14,7 @@ public class Inicio extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_index);
-        Intent historia = new Intent(this, HistoriaClinica.class);
+        Intent historia = new Intent(this,historiaClinica.class);
 
         MaterialButton historiabtn = (MaterialButton) findViewById(R.id.historia);
 

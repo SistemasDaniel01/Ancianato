@@ -10,16 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLoginApp">
         <activity
-            android:name=".Cliente"
+            android:name=".historiaClinica"
             android:exported="false" />
         <activity
-            android:name=".DescriptionActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HistoriaClinica"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterUser"
+            android:name=".Registro"
             android:exported="false" />
         <activity
             android:name=".Inicio"
